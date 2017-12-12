@@ -1,0 +1,2088 @@
+fileFormatVersion: 2
+guid: 789d0cd1f402e144b9a16d3ffda98ed8
+timeCreated: 1512508578
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Chest_01_Ctrl
+    100002: Chest_01_Ctrl_Grp
+    100004: Chest_02_Ctrl
+    100006: Chest_02_Ctrl_Grp
+    100008: Chest_03_Ctrl
+    100010: Chest_03_Ctrl_Grp
+    100012: Chest_Control_System
+    100014: Chest_FK_Master_Ctrl
+    100016: Chest_Jnt_01
+    100018: Chest_Jnt_02
+    100020: Chest_Jnt_03
+    100022: Chest_Master_Ctrl_Grp
+    100024: COG_Ctrl
+    100026: COG_Ctrl_Grp
+    100028: COG_Jnt
+    100030: Controls
+    100032: Deformers
+    100034: FK_Joint_Systems
+    100036: Head_Control_System
+    100038: Head_Ctrl
+    100040: Head_Ctrl_Grp
+    100042: Head_Jnt
+    100044: Head_Master_Ctrl
+    100046: Head_Master_Ctrl_Grp
+    100048: Hip_Ctrl
+    100050: Hip_Ctrl_Grp
+    100052: Hip_Jnt
+    100054: IK_Joint_Systems
+    100056: IK_Spline_Deformers
+    100058: IKFK_Jnt_Systems
+    100060: Jaw_Ctrl
+    100062: Jaw_Ctrl_Grp
+    100064: Jaw_Jnt
+    100066: L_Ankle_FK_Ctrl
+    100068: L_Ankle_FK_Ctrl_Grp
+    100070: L_Ankle_FK_Offset_Jnt
+    100072: L_Ankle_IK_Jnt
+    100074: L_Ankle_IK_Jnt_Grp
+    100076: L_Ankle_IK_Offset_Jnt
+    100078: L_Ankle_Reverse_IK_Jnt
+    100080: L_Ankle_RK_Jnt
+    100082: L_Arm_FK_Control_System
+    100084: L_Arm_FK_Master_Ctrl
+    100086: L_Arm_FK_Master_Ctrl_Grp
+    100088: L_Arm_Hilt_01_Jnt
+    100090: L_Arm_Hilt_02_Jnt
+    100092: L_Arm_Hilt_Ctrl
+    100094: L_Arm_Hilt_Ctrl_Grp
+    100096: L_Arm_Hilt_End_Ctrl
+    100098: L_Arm_Hilt_End_Ctrl_Grp
+    100100: L_Arm_Hilt_Root_Ctrl
+    100102: L_Arm_Hilt_Root_Ctrl_Grp
+    100104: L_Arm_IK_Control_System
+    100106: L_Arm_IK_Ctrl
+    100108: L_Arm_IK_Ctrl_Grp
+    100110: L_Arm_IK_Ctrl_Grp_Main
+    100112: L_Arm_IK_Handle
+    100114: L_Arm_PV_Ctrl
+    100116: L_Arm_PV_Ctrl_Grp
+    100118: L_Arm_PV_Ctrl_Offset_Grp
+    100120: L_Arm_RK_Control_System
+    100122: L_Arm_Root_IK_Ctrl
+    100124: L_Arm_Root_IK_Ctrl_Grp
+    100126: L_Arm_Socket_Ctrl
+    100128: L_Arm_Socket_Ctrl_Grp
+    100130: L_Elbow_FK_Ctrl
+    100132: L_Elbow_FK_Ctrl_Grp
+    100134: L_Elbow_FK_Jnt
+    100136: L_Elbow_IK_Jnt
+    100138: L_Elbow_RK_Jnt
+    100140: L_Eye_Control_System
+    100142: L_Foot_Ball_IK_Handle
+    100144: L_Foot_Ball_Inner_FK_Ctrl
+    100146: L_Foot_Ball_Inner_FK_Ctrl_Grp
+    100148: L_Foot_Ball_Inner_IK_Jnt
+    100150: L_Foot_Ball_Inner_RK_Jnt
+    100152: L_Foot_Ball_Middle_FK_Ctrl
+    100154: L_Foot_Ball_Middle_FK_Ctrl_Grp
+    100156: L_Foot_Ball_Middle_IK_Jnt
+    100158: L_Foot_Ball_Middle_Reverse_IK_Jnt
+    100160: L_Foot_Ball_Middle_RK_Jnt
+    100162: L_Foot_Ball_Outer_FK_Ctrl
+    100164: L_Foot_Ball_Outer_FK_Ctrl_Grp
+    100166: L_Foot_Ball_Outer_IK_Jnt
+    100168: L_Foot_Ball_Outer_RK_Jnt
+    100170: L_Foot_FK_System
+    100172: L_Foot_RK_System
+    100174: L_Foot_Tip_Inner_Reverse_IK_Jnt
+    100176: L_Foot_Tip_Middle_Reverse_IK_Jnt
+    100178: L_Foot_Tip_Outer_Reverse_IK_Jnt
+    100180: L_Foot_Toe_In_IK_Handle
+    100182: L_Foot_Toe_Inner_IK_Jnt
+    100184: L_Foot_Toe_Inner_Reverse_IK_Jnt
+    100186: L_Foot_Toe_Mid_IK_Handle
+    100188: L_Foot_Toe_Middle_IK_Jnt
+    100190: L_Foot_Toe_Middle_Reverse_IK_Jnt
+    100192: L_Foot_Toe_Out_IK_Handle
+    100194: L_Foot_Toe_Outer_IK_Jnt
+    100196: L_Foot_Toe_Outer_Reverse_IK_Jnt
+    100198: L_Foot_Toe_Tip_Inner_Reverse_IK_Jnt
+    100200: L_Foot_Toe_Tip_Middle_Reverse_IK_Jnt
+    100202: L_Foot_Toe_Tip_Outer_Reverse_IK_Jnt
+    100204: L_Hand_Finger_Middle_Ctrl
+    100206: L_Hand_Finger_Middle_Ctrl_Grp
+    100208: L_Hand_Finger_Middle_IK_Ctrl_Grp_Main
+    100210: L_Hand_Finger_Middle_IK_Handle
+    100212: L_Hand_Finger_Middle_Jnt_01
+    100214: L_Hand_Finger_Middle_Jnt_02
+    100216: L_Hand_Finger_Middle_Jnt_03
+    100218: L_Hand_Finger_Middle_Jnt_04
+    100220: L_Hand_Finger_Middle_PV_Ctrl
+    100222: L_Hand_Finger_Middle_PV_Ctrl_Grp
+    100224: L_Hand_Finger_Middle_PV_Ctrl_Offset_Grp
+    100226: L_Hand_Finger_Middle_Root_Ctrl
+    100228: L_Hand_Finger_Middle_Root_Ctrl_Grp
+    100230: L_Hand_Finger_Pointer_Ctrl
+    100232: L_Hand_Finger_Pointer_Ctrl_Grp
+    100234: L_Hand_Finger_Pointer_IK_Ctrl_Grp_Main
+    100236: L_Hand_Finger_Pointer_IK_Handle
+    100238: L_Hand_Finger_Pointer_Jnt_01
+    100240: L_Hand_Finger_Pointer_Jnt_02
+    100242: L_Hand_Finger_Pointer_Jnt_03
+    100244: L_Hand_Finger_Pointer_Jnt_04
+    100246: L_Hand_Finger_Pointer_PV_Ctrl
+    100248: L_Hand_Finger_Pointer_PV_Ctrl_Grp
+    100250: L_Hand_Finger_Pointer_PV_Ctrl_Offset_Grp
+    100252: L_Hand_Finger_Pointer_Root_Ctrl
+    100254: L_Hand_Finger_Pointer_Root_Ctrl_Grp
+    100256: L_Hand_Finger_Ring_Ctrl
+    100258: L_Hand_Finger_Ring_Ctrl_Grp
+    100260: L_Hand_Finger_Ring_IK_Ctrl_Grp_Main
+    100262: L_Hand_Finger_Ring_IK_Handle
+    100264: L_Hand_Finger_Ring_Jnt_01
+    100266: L_Hand_Finger_Ring_Jnt_02
+    100268: L_Hand_Finger_Ring_Jnt_03
+    100270: L_Hand_Finger_Ring_Jnt_04
+    100272: L_Hand_Finger_Ring_PV_Ctrl
+    100274: L_Hand_Finger_Ring_PV_Ctrl_Grp
+    100276: L_Hand_Finger_Ring_PV_Ctrl_Offset_Grp
+    100278: L_Hand_Finger_Ring_Root_Ctrl
+    100280: L_Hand_Finger_Ring_Root_Ctrl_Grp
+    100282: L_Hand_Finger_Thumb_Ctrl
+    100284: L_Hand_Finger_Thumb_Ctrl_Grp
+    100286: L_Hand_Finger_Thumb_IK_Ctrl_Grp_Main
+    100288: L_Hand_Finger_Thumb_IK_Handle
+    100290: L_Hand_Finger_Thumb_Jnt_01
+    100292: L_Hand_Finger_Thumb_Jnt_02
+    100294: L_Hand_Finger_Thumb_Jnt_03
+    100296: L_Hand_Finger_Thumb_Jnt_04
+    100298: L_Hand_Finger_Thumb_PV_Ctrl
+    100300: L_Hand_Finger_Thumb_PV_Ctrl_Grp
+    100302: L_Hand_Finger_Thumb_PV_Ctrl_Offset_Grp
+    100304: L_Hand_Finger_Thumb_Root_Ctrl
+    100306: L_Hand_Finger_Thumb_Root_Ctrl_Grp
+    100308: L_Hand_IK_System
+    100310: L_Hilt
+    100312: L_Hilt_Ball
+    100314: L_Hilt_End
+    100316: L_Hip_FK_Ctrl
+    100318: L_Hip_FK_Ctrl_Grp
+    100320: L_Hip_FK_Jnt
+    100322: L_Hip_IK_Jnt
+    100324: L_Hip_RK_Jnt
+    100326: L_Hip_Socket_Ctrl
+    100328: L_Hip_Socket_Ctrl_Grp
+    100330: L_Hip_Socket_Jnt
+    100332: L_IK_Foot_Ctrl
+    100334: L_IK_Foot_Ctrl_Grp
+    100336: L_IK_Foot_Heel_Reverse_IK_Jnt
+    100338: L_Inner_Eye_Ctrl
+    100340: L_Inner_Eye_Ctrl_Grp
+    100342: L_Inner_Eyelid_Jnt
+    100344: L_Iris_Ctrl
+    100346: L_Iris_Ctrl_Grp
+    100348: L_Iris_Jnt
+    100350: L_Leg_FK_Control_System
+    100352: L_Leg_FK_Master_Ctrl
+    100354: L_Leg_FK_Master_Ctrl_Grp
+    100356: L_Leg_IK_Ctrl_Grp_Main
+    100358: L_Leg_IK_Handle
+    100360: L_Leg_PV_IK_Ctrl
+    100362: L_Leg_PV_IK_Ctrl_Grp
+    100364: L_Leg_PV_IK_Ctrl_Offset_Grp
+    100366: L_Leg_RK_Control_System
+    100368: L_Leg_Root_IK_Ctrl
+    100370: L_Leg_Root_IK_Ctrl_Grp
+    100372: L_Outer_Eye_Ctrl
+    100374: L_Outer_Eye_Ctrl_Grp
+    100376: L_Outer_Eyelid_Jnt
+    100378: L_Pupil_Ctrl
+    100380: L_Pupil_Ctrl_Grp
+    100382: L_Pupil_Jnt
+    100384: L_Reverse_Foot_Jnt_Grp
+    100386: L_Reverse_IK_Foot_Jnt_Grp
+    100388: L_Shin_FK_Ctrl
+    100390: L_Shin_FK_Ctrl_Grp
+    100392: L_Shin_FK_Jnt
+    100394: L_Shin_IK_Jnt
+    100396: L_Shin_Link_X_Jnt
+    100398: L_Shin_Link_Y_Jnt
+    100400: L_Shin_RK_Jnt
+    100402: L_Shoulder_FK_Ctrl
+    100404: L_Shoulder_FK_Ctrl_Grp
+    100406: L_Shoulder_FK_Jnt
+    100408: L_Shoulder_IK_Jnt
+    100410: L_Shoulder_RK_Jnt
+    100412: L_Shoulder_Socket_Jnt
+    100414: L_Thigh_FK_Ctrl
+    100416: L_Thigh_FK_Ctrl_Grp
+    100418: L_Thigh_FK_Jnt
+    100420: L_Thigh_IK_Jnt
+    100422: L_Thigh_RK_Jnt
+    100424: L_Wrist_FK_Ctrl
+    100426: L_Wrist_FK_Ctrl_Grp
+    100428: L_Wrist_FK_Jnt
+    100430: L_Wrist_IK_Jnt
+    100432: L_Wrist_RK_Jnt
+    100434: Neck_Bind_Jnt_01
+    100436: Neck_Bind_Jnt_02
+    100438: Neck_Bind_Jnt_03
+    100440: Neck_Bind_Jnt_04
+    100442: Neck_Bind_Jnt_05
+    100444: Neck_Control_System
+    100446: Neck_Master_Ctrl_Grp
+    100448: Neck_Spline_01_Ctrl
+    100450: Neck_Spline_01_Ctrl_Grp
+    100452: Neck_Spline_02_Ctrl
+    100454: Neck_Spline_02_Ctrl_Grp
+    100456: Neck_Spline_03_Ctrl
+    100458: Neck_Spline_03_Ctrl_Grp
+    100460: Neck_Spline_IK_Curve
+    100462: Neck_Spline_IK_Handle
+    100464: Neck_Spline_IK_Master_Ctrl
+    100466: Neck_Spline_IK_System
+    100468: Neck_Spline_Jnt_01
+    100470: Neck_Spline_Jnt_02
+    100472: Neck_Spline_Jnt_03
+    100474: PV_Control_Visibility_Ctrl
+    100476: PV_Control_Visibility_Ctrl_Grp
+    100478: R_Ankle_FK_Ctrl
+    100480: R_Ankle_FK_Ctrl_Grp
+    100482: R_Ankle_FK_Offset_Jnt
+    100484: R_Ankle_IK_Jnt
+    100486: R_Ankle_IK_Jnt_Grp
+    100488: R_Ankle_IK_Offset_Jnt
+    100490: R_Ankle_Reverse_IK_Jnt
+    100492: R_Ankle_RK_Jnt
+    100494: R_Arm_FK_Control_System
+    100496: R_Arm_FK_Master_Ctrl
+    100498: R_Arm_FK_Master_Ctrl_Grp
+    100500: R_Arm_Hilt_01_Jnt
+    100502: R_Arm_Hilt_02_Jnt
+    100504: R_Arm_Hilt_Ctrl
+    100506: R_Arm_Hilt_Ctrl_Grp
+    100508: R_Arm_Hilt_End_Ctrl
+    100510: R_Arm_Hilt_End_Ctrl_Grp
+    100512: R_Arm_Hilt_Root_Ctrl
+    100514: R_Arm_Hilt_Root_Ctrl_Grp
+    100516: R_Arm_IK_Control_System
+    100518: R_Arm_IK_Ctrl
+    100520: R_Arm_IK_Ctrl_Grp
+    100522: R_Arm_IK_Ctrl_Grp_Main
+    100524: R_Arm_IK_Handle
+    100526: R_Arm_PV_Ctrl
+    100528: R_Arm_PV_Ctrl_Grp
+    100530: R_Arm_PV_Ctrl_Offset_Grp
+    100532: R_Arm_RK_Control_System
+    100534: R_Arm_Root_IK_Ctrl
+    100536: R_Arm_Root_IK_Ctrl_Grp
+    100538: R_Arm_Socket_Ctrl
+    100540: R_Arm_Socket_Ctrl_Grp
+    100542: R_Elbow_FK_Ctrl
+    100544: R_Elbow_FK_Ctrl_Grp
+    100546: R_Elbow_FK_Jnt
+    100548: R_Elbow_IK_Jnt
+    100550: R_Elbow_RK_Jnt
+    100552: R_Eye_Control_System
+    100554: R_Foot_Ball_IK_Handle
+    100556: R_Foot_Ball_Inner_FK_Ctrl
+    100558: R_Foot_Ball_Inner_FK_Ctrl_Grp
+    100560: R_Foot_Ball_Inner_IK_Jnt
+    100562: R_Foot_Ball_Inner_RK_Jnt
+    100564: R_Foot_Ball_Middle_FK_Ctrl
+    100566: R_Foot_Ball_Middle_FK_Ctrl_Grp
+    100568: R_Foot_Ball_Middle_IK_Jnt
+    100570: R_Foot_Ball_Middle_Reverse_IK_Jnt
+    100572: R_Foot_Ball_Middle_RK_Jnt
+    100574: R_Foot_Ball_Outer_FK_Ctrl
+    100576: R_Foot_Ball_Outer_FK_Ctrl_Grp
+    100578: R_Foot_Ball_Outer_IK_Jnt
+    100580: R_Foot_Ball_Outer_RK_Jnt
+    100582: R_Foot_FK_System
+    100584: R_Foot_RK_System
+    100586: R_Foot_Tip_Inner_Reverse_IK_Jnt
+    100588: R_Foot_Tip_Middle_Reverse_IK_Jnt
+    100590: R_Foot_Tip_Outer_Reverse_IK_Jnt
+    100592: R_Foot_Toe_In_IK_Handle
+    100594: R_Foot_Toe_Inner_IK_Jnt
+    100596: R_Foot_Toe_Inner_Reverse_IK_Jnt
+    100598: R_Foot_Toe_Mid_IK_Handle
+    100600: R_Foot_Toe_Middle_IK_Jnt
+    100602: R_Foot_Toe_Middle_Reverse_IK_Jnt
+    100604: R_Foot_Toe_Out_IK_Handle
+    100606: R_Foot_Toe_Outer_IK_Jnt
+    100608: R_Foot_Toe_Outer_Reverse_IK_Jnt
+    100610: R_Foot_Toe_Tip_Inner_Reverse_IK_Jnt
+    100612: R_Foot_Toe_Tip_Middle_Reverse_IK_Jnt
+    100614: R_Foot_Toe_Tip_Outer_Reverse_IK_Jnt
+    100616: R_Hand_Finger_Middle_Ctrl
+    100618: R_Hand_Finger_Middle_Ctrl_Grp
+    100620: R_Hand_Finger_Middle_IK_Ctrl_Grp_Main
+    100622: R_Hand_Finger_Middle_IK_Handle
+    100624: R_Hand_Finger_Middle_Jnt_01
+    100626: R_Hand_Finger_Middle_Jnt_02
+    100628: R_Hand_Finger_Middle_Jnt_03
+    100630: R_Hand_Finger_Middle_Jnt_04
+    100632: R_Hand_Finger_Middle_PV_Ctrl
+    100634: R_Hand_Finger_Middle_PV_Ctrl_Grp
+    100636: R_Hand_Finger_Middle_PV_Ctrl_Offset_Grp
+    100638: R_Hand_Finger_Middle_Root_Ctrl
+    100640: R_Hand_Finger_Middle_Root_Ctrl_Grp
+    100642: R_Hand_Finger_Pointer_Ctrl
+    100644: R_Hand_Finger_Pointer_Ctrl_Grp
+    100646: R_Hand_Finger_Pointer_IK_Ctrl_Grp_Main
+    100648: R_Hand_Finger_Pointer_IK_Handle
+    100650: R_Hand_Finger_Pointer_Jnt_01
+    100652: R_Hand_Finger_Pointer_Jnt_02
+    100654: R_Hand_Finger_Pointer_Jnt_03
+    100656: R_Hand_Finger_Pointer_Jnt_04
+    100658: R_Hand_Finger_Pointer_PV_Ctrl
+    100660: R_Hand_Finger_Pointer_PV_Ctrl_Grp
+    100662: R_Hand_Finger_Pointer_PV_Ctrl_Offset_Grp
+    100664: R_Hand_Finger_Pointer_Root_Ctrl
+    100666: R_Hand_Finger_Pointer_Root_Ctrl_Grp
+    100668: R_Hand_Finger_Ring_Ctrl
+    100670: R_Hand_Finger_Ring_Ctrl_Grp
+    100672: R_Hand_Finger_Ring_IK_Ctrl_Grp_Main
+    100674: R_Hand_Finger_Ring_IK_Handle
+    100676: R_Hand_Finger_Ring_Jnt_01
+    100678: R_Hand_Finger_Ring_Jnt_02
+    100680: R_Hand_Finger_Ring_Jnt_03
+    100682: R_Hand_Finger_Ring_Jnt_04
+    100684: R_Hand_Finger_Ring_PV_Ctrl
+    100686: R_Hand_Finger_Ring_PV_Ctrl_Grp
+    100688: R_Hand_Finger_Ring_PV_Ctrl_Offset_Grp
+    100690: R_Hand_Finger_Ring_Root_Ctrl
+    100692: R_Hand_Finger_Ring_Root_Ctrl_Grp
+    100694: R_Hand_Finger_Thumb_Ctrl
+    100696: R_Hand_Finger_Thumb_Ctrl_Grp
+    100698: R_Hand_Finger_Thumb_IK_Ctrl_Grp_Main
+    100700: R_Hand_Finger_Thumb_IK_Handle
+    100702: R_Hand_Finger_Thumb_Jnt_01
+    100704: R_Hand_Finger_Thumb_Jnt_02
+    100706: R_Hand_Finger_Thumb_Jnt_03
+    100708: R_Hand_Finger_Thumb_Jnt_04
+    100710: R_Hand_Finger_Thumb_PV_Ctrl
+    100712: R_Hand_Finger_Thumb_PV_Ctrl_Grp
+    100714: R_Hand_Finger_Thumb_PV_Ctrl_Offset_Grp
+    100716: R_Hand_Finger_Thumb_Root_Ctrl
+    100718: R_Hand_Finger_Thumb_Root_Ctrl_Grp
+    100720: R_Hand_IK_System
+    100722: R_Hilt
+    100724: R_Hilt_Ball
+    100726: R_Hilt_End
+    100728: R_Hip_FK_Ctrl
+    100730: R_Hip_FK_Ctrl_Grp
+    100732: R_Hip_FK_Jnt
+    100734: R_Hip_IK_Jnt
+    100736: R_Hip_RK_Jnt
+    100738: R_Hip_Socket_Ctrl
+    100740: R_Hip_Socket_Ctrl_Grp
+    100742: R_Hip_Socket_Jnt
+    100744: R_IK_Foot_Ctrl
+    100746: R_IK_Foot_Ctrl_Grp
+    100748: R_IK_Foot_Heel_Reverse_IK_Jnt
+    100750: R_Inner_Eye_Ctrl
+    100752: R_Inner_Eye_Ctrl_Grp
+    100754: R_Inner_Eyelid_Jnt
+    100756: R_Iris_Ctrl
+    100758: R_Iris_Ctrl_Grp
+    100760: R_Iris_Jnt
+    100762: R_Leg_FK_Control_System
+    100764: R_Leg_FK_Master_Ctrl
+    100766: R_Leg_FK_Master_Ctrl_Grp
+    100768: R_Leg_IK_Ctrl_Grp_Main
+    100770: R_Leg_IK_Handle
+    100772: R_Leg_PV_IK_Ctrl
+    100774: R_Leg_PV_IK_Ctrl_Grp
+    100776: R_Leg_PV_IK_Ctrl_Offset_Grp
+    100778: R_Leg_RK_Control_System
+    100780: R_Leg_Root_IK_Ctrl
+    100782: R_Leg_Root_IK_Ctrl_Grp
+    100784: R_Outer_Eye_Ctrl
+    100786: R_Outer_Eye_Ctrl_Grp
+    100788: R_Outer_Eyelid_Jnt
+    100790: R_Pupil_Ctrl
+    100792: R_Pupil_Ctrl_Grp
+    100794: R_Pupil_Jnt
+    100796: R_Reverse_Foot_Jnt_Grp
+    100798: R_Reverse_IK_Foot_Jnt_Grp
+    100800: R_Shin_FK_Ctrl
+    100802: R_Shin_FK_Ctrl_Grp
+    100804: R_Shin_FK_Jnt
+    100806: R_Shin_IK_Jnt
+    100808: R_Shin_Link_X_Jnt
+    100810: R_Shin_Link_Y_Jnt
+    100812: R_Shin_RK_Jnt
+    100814: R_Shoulder_FK_Ctrl
+    100816: R_Shoulder_FK_Ctrl_Grp
+    100818: R_Shoulder_FK_Jnt
+    100820: R_Shoulder_IK_Jnt
+    100822: R_Shoulder_RK_Jnt
+    100824: R_Shoulder_Socket_Jnt
+    100826: R_Thigh_FK_Ctrl
+    100828: R_Thigh_FK_Ctrl_Grp
+    100830: R_Thigh_FK_Jnt
+    100832: R_Thigh_IK_Jnt
+    100834: R_Thigh_RK_Jnt
+    100836: R_Wrist_FK_Ctrl
+    100838: R_Wrist_FK_Ctrl_Grp
+    100840: R_Wrist_FK_Jnt
+    100842: R_Wrist_IK_Jnt
+    100844: R_Wrist_RK_Jnt
+    100846: //RootNode
+    100848: Sino_Ankle
+    100850: Sino_Ankle 1
+    100852: Sino_Ankle_Sphere1
+    100854: Sino_Ankle_Sphere1 1
+    100856: Sino_Armor_Middle_Piece_1
+    100858: Sino_Armor_Middle_Piece_2
+    100860: Sino_Armor_Middle_Piece_3
+    100862: Sino_Armor_Middle_Piece_4
+    100864: Sino_Armor_Middle_Piece_6
+    100866: Sino_Armor_Piece_1
+    100868: Sino_Armor_Piece_2
+    100870: Sino_Armor_Piece_3
+    100872: Sino_Armor_Piece_4
+    100874: Sino_Armor_Piece_5
+    100876: Sino_Armor_Piece_6
+    100878: Sino_Base_Finger_Joint1
+    100880: Sino_Base_Finger_Joint1 1
+    100882: Sino_Base_Finger_Joint2
+    100884: Sino_Base_Finger_Joint2 1
+    100886: Sino_Base_Finger_Joint3
+    100888: Sino_Base_Finger_Joint3 1
+    100890: Sino_Calf
+    100892: Sino_Calf 1
+    100894: Sino_Calf 2
+    100896: Sino_Calf 3
+    100898: Sino_Chest
+    100900: Sino_Chest_Front
+    100902: Sino_Chest_Heart
+    100904: Sino_Chest_Mesh
+    100906: Sino_Chest_Middle
+    100908: Sino_Chest_Top
+    100910: Sino_Chest_Underplate
+    100912: Sino_Clavicle_Mesh
+    100914: Sino_Clavicle_Socket
+    100916: Sino_Elbow_Joint1
+    100918: Sino_Elbow_Joint1 1
+    100920: Sino_Feathers1
+    100922: Sino_Fine_Bicep1
+    100924: Sino_Fine_Bicep1 1
+    100926: Sino_Finger_Armor4
+    100928: Sino_Finger_Armor4 1
+    100930: Sino_Finger_Armor5
+    100932: Sino_Finger_Armor5 1
+    100934: Sino_Finger_Armor6
+    100936: Sino_Finger_Armor6 1
+    100938: Sino_Finger_MIddle_Armor1
+    100940: Sino_Finger_MIddle_Armor1 1
+    100942: Sino_Finger_MIddle_Armor3
+    100944: Sino_Finger_MIddle_Armor3 1
+    100946: Sino_Finger_MIddle_Armor4
+    100948: Sino_Finger_MIddle_Armor4 1
+    100950: Sino_Finger_Tip1
+    100952: Sino_Finger_Tip1 1
+    100954: Sino_Finger_Tip2
+    100956: Sino_Finger_Tip2 1
+    100958: Sino_Finger_Tip3
+    100960: Sino_Finger_Tip3 1
+    100962: Sino_Foot
+    100964: Sino_Foot 1
+    100966: Sino_Foot 2
+    100968: Sino_Foot 3
+    100970: Sino_Foot_Armor
+    100972: Sino_Foot_Armor 1
+    100974: Sino_Foot_Back
+    100976: Sino_Foot_Back 1
+    100978: Sino_Fore_Arm
+    100980: Sino_Fore_Arm 1
+    100982: Sino_Fore_Arm 2
+    100984: Sino_Fore_Arm 3
+    100986: Sino_Fore_Arm_Sheath
+    100988: Sino_Fore_Arm_Sheath 1
+    100990: Sino_ForeArm_Back
+    100992: Sino_ForeArm_Back 1
+    100994: Sino_group3
+    100996: Sino_group4
+    100998: Sino_Hand
+    101000: Sino_Hand 1
+    101002: Sino_Hand1
+    101004: Sino_Hand1 1
+    101006: Sino_Head
+    101008: Sino_Head_Aarmor_Top
+    101010: Sino_Head_Armor_1
+    101012: Sino_Head_Armor_2
+    101014: Sino_Helm
+    101016: Sino_Hip
+    101018: Sino_Hip_Front
+    101020: Sino_Hip_Socket
+    101022: Sino_Hip_Sphere
+    101024: Sino_Hip_Sphere 1
+    101026: Sino_Hip_Sphere 2
+    101028: Sino_Hip_Sphere 3
+    101030: Sino_Hip_Top
+    101032: Sino_In_Feathers
+    101034: Sino_Inner_Head
+    101036: Sino_Knee1
+    101038: Sino_Knee1 1
+    101040: Sino_L_Arm
+    101042: Sino_L_Arm_Blade1
+    101044: Sino_L_Eye
+    101046: Sino_L_Forearm_Mesh
+    101048: Sino_L_Leg
+    101050: Sino_L_Toe
+    101052: Sino_L_Toe 1
+    101054: Sino_L_Toe_Amor
+    101056: Sino_L_Toe_Amor 1
+    101058: Sino_L_Toe_Amor1
+    101060: Sino_L_Toe_Amor1 1
+    101062: Sino_L_Toe_Amor2
+    101064: Sino_L_Toe_Amor2 1
+    101066: Sino_Middle_Finger_Joint1
+    101068: Sino_Middle_Finger_Joint1 1
+    101070: Sino_Middle_Finger_Joint2
+    101072: Sino_Middle_Finger_Joint2 1
+    101074: Sino_Middle_Finger_Joint3
+    101076: Sino_Middle_Finger_Joint3 1
+    101078: Sino_Middle_Toe
+    101080: Sino_Middle_Toe 1
+    101082: Sino_Mouth
+    101084: Sino_Neck
+    101086: Sino_Neck_Armor_1
+    101088: Sino_Neck_Armor_2
+    101090: Sino_Neck_Armor_3
+    101092: Sino_Neck_Base_Armor
+    101094: Sino_Neck_Chords
+    101096: Sino_New_Guts
+    101098: Sino_Nose
+    101100: Sino_pCylinder6
+    101102: Sino_pCylinder6 1
+    101104: Sino_pCylinder7
+    101106: Sino_pCylinder7 1
+    101108: Sino_pCylinder8
+    101110: Sino_pCylinder8 1
+    101112: Sino_polySurface466
+    101114: Sino_polySurface466 1
+    101116: Sino_polySurface469
+    101118: Sino_polySurface469 1
+    101120: Sino_polySurface470
+    101122: Sino_polySurface470 1
+    101124: Sino_polySurface471
+    101126: Sino_polySurface471 1
+    101128: Sino_polySurface472
+    101130: Sino_polySurface472 1
+    101132: Sino_polySurface474
+    101134: Sino_polySurface474 1
+    101136: Sino_polySurface476
+    101138: Sino_polySurface476 1
+    101140: Sino_polySurface477
+    101142: Sino_polySurface477 1
+    101144: Sino_polySurface478
+    101146: Sino_polySurface478 1
+    101148: Sino_polySurface480
+    101150: Sino_polySurface480 1
+    101152: Sino_pTorus1
+    101154: Sino_pTorus1 1
+    101156: Sino_pTorus2
+    101158: Sino_pTorus2 1
+    101160: Sino_R_Arm
+    101162: Sino_R_Arm_Blade
+    101164: Sino_R_Eye
+    101166: Sino_R_Forearm_Mesh
+    101168: Sino_R_Leg
+    101170: Sino_R_Leg_Foot_Toes_L_Toe
+    101172: Sino_R_Leg_Foot_Toes_L_Toe 1
+    101174: Sino_R_Leg_Foot_Toes_L_Toe1
+    101176: Sino_R_Leg_Foot_Toes_L_Toe1 1
+    101178: Sino_R_Toe
+    101180: Sino_R_Toe 1
+    101182: Sino_Shoulder
+    101184: Sino_Shoulder 1
+    101186: Sino_Shoulder_Joint
+    101188: Sino_Shoulder_Joint 1
+    101190: Sino_Socket_Wall
+    101192: Sino_Tail
+    101194: Sino_Tail_Base
+    101196: Sino_Tail_Mesh
+    101198: Sino_Tail_Tip
+    101200: Sino_Thigh
+    101202: Sino_Thigh 1
+    101204: Sino_Thigh_Bottom
+    101206: Sino_Thigh_Bottom 1
+    101208: Sino_Thigh_Top
+    101210: Sino_Thigh_Top 1
+    101212: Sino_Thumb_Armor_1
+    101214: Sino_Thumb_Armor_1 1
+    101216: Sino_Thumb_Armor_2
+    101218: Sino_Thumb_Armor_2 1
+    101220: Sino_Thumb_Base1
+    101222: Sino_Thumb_Base1 1
+    101224: Sino_Thumb_Base_Joint1
+    101226: Sino_Thumb_Base_Joint1 1
+    101228: Sino_Thumb_Middle1
+    101230: Sino_Thumb_Middle1 1
+    101232: Sino_Thumb_Middle_Joint1
+    101234: Sino_Thumb_Middle_Joint1 1
+    101236: Sino_Thumb_Tip1
+    101238: Sino_Thumb_Tip1 1
+    101240: Sino_Thumb_Tip_Armor2
+    101242: Sino_Thumb_Tip_Armor2 1
+    101244: Sino_Thumb_Tip_Armor4
+    101246: Sino_Thumb_Tip_Armor4 1
+    101248: Sino_Thumb_Tip_Armor5
+    101250: Sino_Thumb_Tip_Armor5 1
+    101252: Sino_Thumb_Tip_Armor6
+    101254: Sino_Thumb_Tip_Armor6 1
+    101256: Sino_Thumb_Tip_Joint1
+    101258: Sino_Thumb_Tip_Joint1 1
+    101260: Sino_Toes
+    101262: Sino_Toes 1
+    101264: Sino_Topoed_Dino
+    101266: Sino_transform112
+    101268: Sino_transform112 1
+    101270: Sino_transform114
+    101272: Sino_transform114 1
+    101274: Sino_transform116
+    101276: Sino_transform116 1
+    101278: Sino_Tricep1
+    101280: Sino_Tricep1 1
+    101282: Skeleton
+    101284: Spline_IK_Handles
+    101286: Tail_Bind_Jnt_01
+    101288: Tail_Bind_Jnt_02
+    101290: Tail_Bind_Jnt_03
+    101292: Tail_Bind_Jnt_04
+    101294: Tail_Bind_Jnt_05
+    101296: Tail_Bind_Jnt_06
+    101298: Tail_Bind_Jnt_07
+    101300: Tail_Bind_Jnt_08
+    101302: Tail_Bind_Jnt_09
+    101304: Tail_Bind_Jnt_10
+    101306: Tail_Bind_Jnt_11
+    101308: Tail_Bind_Jnt_12
+    101310: Tail_Bind_Jnt_13
+    101312: Tail_Control_System
+    101314: Tail_Master_Ctrl_Grp
+    101316: Tail_Spline_01_Ctrl
+    101318: Tail_Spline_01_Ctrl_Grp
+    101320: Tail_Spline_02_Ctrl
+    101322: Tail_Spline_02_Ctrl_Grp
+    101324: Tail_Spline_03_Ctrl
+    101326: Tail_Spline_03_Ctrl_Grp
+    101328: Tail_Spline_04_Ctrl
+    101330: Tail_Spline_04_Ctrl_Grp
+    101332: Tail_Spline_IK_Curve
+    101334: Tail_Spline_IK_Handle
+    101336: Tail_Spline_IK_Master_Ctrl
+    101338: Tail_Spline_IK_System
+    101340: Tail_Spline_Jnt_01
+    101342: Tail_Spline_Jnt_02
+    101344: Tail_Spline_Jnt_03
+    101346: Tail_Spline_Jnt_04
+    101348: Tongue_Bind_Jnt_01
+    101350: Tongue_Bind_Jnt_02
+    101352: Tongue_Bind_Jnt_03
+    101354: Tongue_Bind_Jnt_04
+    101356: Tongue_Bind_Jnt_05
+    101358: Tongue_Control_System
+    101360: Tongue_Master_Ctrl
+    101362: Tongue_Master_Ctrl_Grp
+    101364: Tongue_Spline_IK_Ctrl_01
+    101366: Tongue_Spline_IK_Ctrl_01_Grp
+    101368: Tongue_Spline_IK_Ctrl_02
+    101370: Tongue_Spline_IK_Ctrl_02_Grp
+    101372: Tongue_Spline_IK_Ctrl_03
+    101374: Tongue_Spline_IK_Ctrl_03_Grp
+    101376: Tongue_Spline_IK_Curve
+    101378: Tongue_Spline_IK_Handle
+    101380: Tongue_Spline_Jnt_01
+    101382: Tongue_Spline_Jnt_02
+    101384: Tongue_Spline_Jnt_03
+    101386: Transform_Ctrl
+    101388: Transform_Ctrl_Grp
+    400000: Chest_01_Ctrl
+    400002: Chest_01_Ctrl_Grp
+    400004: Chest_02_Ctrl
+    400006: Chest_02_Ctrl_Grp
+    400008: Chest_03_Ctrl
+    400010: Chest_03_Ctrl_Grp
+    400012: Chest_Control_System
+    400014: Chest_FK_Master_Ctrl
+    400016: Chest_Jnt_01
+    400018: Chest_Jnt_02
+    400020: Chest_Jnt_03
+    400022: Chest_Master_Ctrl_Grp
+    400024: COG_Ctrl
+    400026: COG_Ctrl_Grp
+    400028: COG_Jnt
+    400030: Controls
+    400032: Deformers
+    400034: FK_Joint_Systems
+    400036: Head_Control_System
+    400038: Head_Ctrl
+    400040: Head_Ctrl_Grp
+    400042: Head_Jnt
+    400044: Head_Master_Ctrl
+    400046: Head_Master_Ctrl_Grp
+    400048: Hip_Ctrl
+    400050: Hip_Ctrl_Grp
+    400052: Hip_Jnt
+    400054: IK_Joint_Systems
+    400056: IK_Spline_Deformers
+    400058: IKFK_Jnt_Systems
+    400060: Jaw_Ctrl
+    400062: Jaw_Ctrl_Grp
+    400064: Jaw_Jnt
+    400066: L_Ankle_FK_Ctrl
+    400068: L_Ankle_FK_Ctrl_Grp
+    400070: L_Ankle_FK_Offset_Jnt
+    400072: L_Ankle_IK_Jnt
+    400074: L_Ankle_IK_Jnt_Grp
+    400076: L_Ankle_IK_Offset_Jnt
+    400078: L_Ankle_Reverse_IK_Jnt
+    400080: L_Ankle_RK_Jnt
+    400082: L_Arm_FK_Control_System
+    400084: L_Arm_FK_Master_Ctrl
+    400086: L_Arm_FK_Master_Ctrl_Grp
+    400088: L_Arm_Hilt_01_Jnt
+    400090: L_Arm_Hilt_02_Jnt
+    400092: L_Arm_Hilt_Ctrl
+    400094: L_Arm_Hilt_Ctrl_Grp
+    400096: L_Arm_Hilt_End_Ctrl
+    400098: L_Arm_Hilt_End_Ctrl_Grp
+    400100: L_Arm_Hilt_Root_Ctrl
+    400102: L_Arm_Hilt_Root_Ctrl_Grp
+    400104: L_Arm_IK_Control_System
+    400106: L_Arm_IK_Ctrl
+    400108: L_Arm_IK_Ctrl_Grp
+    400110: L_Arm_IK_Ctrl_Grp_Main
+    400112: L_Arm_IK_Handle
+    400114: L_Arm_PV_Ctrl
+    400116: L_Arm_PV_Ctrl_Grp
+    400118: L_Arm_PV_Ctrl_Offset_Grp
+    400120: L_Arm_RK_Control_System
+    400122: L_Arm_Root_IK_Ctrl
+    400124: L_Arm_Root_IK_Ctrl_Grp
+    400126: L_Arm_Socket_Ctrl
+    400128: L_Arm_Socket_Ctrl_Grp
+    400130: L_Elbow_FK_Ctrl
+    400132: L_Elbow_FK_Ctrl_Grp
+    400134: L_Elbow_FK_Jnt
+    400136: L_Elbow_IK_Jnt
+    400138: L_Elbow_RK_Jnt
+    400140: L_Eye_Control_System
+    400142: L_Foot_Ball_IK_Handle
+    400144: L_Foot_Ball_Inner_FK_Ctrl
+    400146: L_Foot_Ball_Inner_FK_Ctrl_Grp
+    400148: L_Foot_Ball_Inner_IK_Jnt
+    400150: L_Foot_Ball_Inner_RK_Jnt
+    400152: L_Foot_Ball_Middle_FK_Ctrl
+    400154: L_Foot_Ball_Middle_FK_Ctrl_Grp
+    400156: L_Foot_Ball_Middle_IK_Jnt
+    400158: L_Foot_Ball_Middle_Reverse_IK_Jnt
+    400160: L_Foot_Ball_Middle_RK_Jnt
+    400162: L_Foot_Ball_Outer_FK_Ctrl
+    400164: L_Foot_Ball_Outer_FK_Ctrl_Grp
+    400166: L_Foot_Ball_Outer_IK_Jnt
+    400168: L_Foot_Ball_Outer_RK_Jnt
+    400170: L_Foot_FK_System
+    400172: L_Foot_RK_System
+    400174: L_Foot_Tip_Inner_Reverse_IK_Jnt
+    400176: L_Foot_Tip_Middle_Reverse_IK_Jnt
+    400178: L_Foot_Tip_Outer_Reverse_IK_Jnt
+    400180: L_Foot_Toe_In_IK_Handle
+    400182: L_Foot_Toe_Inner_IK_Jnt
+    400184: L_Foot_Toe_Inner_Reverse_IK_Jnt
+    400186: L_Foot_Toe_Mid_IK_Handle
+    400188: L_Foot_Toe_Middle_IK_Jnt
+    400190: L_Foot_Toe_Middle_Reverse_IK_Jnt
+    400192: L_Foot_Toe_Out_IK_Handle
+    400194: L_Foot_Toe_Outer_IK_Jnt
+    400196: L_Foot_Toe_Outer_Reverse_IK_Jnt
+    400198: L_Foot_Toe_Tip_Inner_Reverse_IK_Jnt
+    400200: L_Foot_Toe_Tip_Middle_Reverse_IK_Jnt
+    400202: L_Foot_Toe_Tip_Outer_Reverse_IK_Jnt
+    400204: L_Hand_Finger_Middle_Ctrl
+    400206: L_Hand_Finger_Middle_Ctrl_Grp
+    400208: L_Hand_Finger_Middle_IK_Ctrl_Grp_Main
+    400210: L_Hand_Finger_Middle_IK_Handle
+    400212: L_Hand_Finger_Middle_Jnt_01
+    400214: L_Hand_Finger_Middle_Jnt_02
+    400216: L_Hand_Finger_Middle_Jnt_03
+    400218: L_Hand_Finger_Middle_Jnt_04
+    400220: L_Hand_Finger_Middle_PV_Ctrl
+    400222: L_Hand_Finger_Middle_PV_Ctrl_Grp
+    400224: L_Hand_Finger_Middle_PV_Ctrl_Offset_Grp
+    400226: L_Hand_Finger_Middle_Root_Ctrl
+    400228: L_Hand_Finger_Middle_Root_Ctrl_Grp
+    400230: L_Hand_Finger_Pointer_Ctrl
+    400232: L_Hand_Finger_Pointer_Ctrl_Grp
+    400234: L_Hand_Finger_Pointer_IK_Ctrl_Grp_Main
+    400236: L_Hand_Finger_Pointer_IK_Handle
+    400238: L_Hand_Finger_Pointer_Jnt_01
+    400240: L_Hand_Finger_Pointer_Jnt_02
+    400242: L_Hand_Finger_Pointer_Jnt_03
+    400244: L_Hand_Finger_Pointer_Jnt_04
+    400246: L_Hand_Finger_Pointer_PV_Ctrl
+    400248: L_Hand_Finger_Pointer_PV_Ctrl_Grp
+    400250: L_Hand_Finger_Pointer_PV_Ctrl_Offset_Grp
+    400252: L_Hand_Finger_Pointer_Root_Ctrl
+    400254: L_Hand_Finger_Pointer_Root_Ctrl_Grp
+    400256: L_Hand_Finger_Ring_Ctrl
+    400258: L_Hand_Finger_Ring_Ctrl_Grp
+    400260: L_Hand_Finger_Ring_IK_Ctrl_Grp_Main
+    400262: L_Hand_Finger_Ring_IK_Handle
+    400264: L_Hand_Finger_Ring_Jnt_01
+    400266: L_Hand_Finger_Ring_Jnt_02
+    400268: L_Hand_Finger_Ring_Jnt_03
+    400270: L_Hand_Finger_Ring_Jnt_04
+    400272: L_Hand_Finger_Ring_PV_Ctrl
+    400274: L_Hand_Finger_Ring_PV_Ctrl_Grp
+    400276: L_Hand_Finger_Ring_PV_Ctrl_Offset_Grp
+    400278: L_Hand_Finger_Ring_Root_Ctrl
+    400280: L_Hand_Finger_Ring_Root_Ctrl_Grp
+    400282: L_Hand_Finger_Thumb_Ctrl
+    400284: L_Hand_Finger_Thumb_Ctrl_Grp
+    400286: L_Hand_Finger_Thumb_IK_Ctrl_Grp_Main
+    400288: L_Hand_Finger_Thumb_IK_Handle
+    400290: L_Hand_Finger_Thumb_Jnt_01
+    400292: L_Hand_Finger_Thumb_Jnt_02
+    400294: L_Hand_Finger_Thumb_Jnt_03
+    400296: L_Hand_Finger_Thumb_Jnt_04
+    400298: L_Hand_Finger_Thumb_PV_Ctrl
+    400300: L_Hand_Finger_Thumb_PV_Ctrl_Grp
+    400302: L_Hand_Finger_Thumb_PV_Ctrl_Offset_Grp
+    400304: L_Hand_Finger_Thumb_Root_Ctrl
+    400306: L_Hand_Finger_Thumb_Root_Ctrl_Grp
+    400308: L_Hand_IK_System
+    400310: L_Hilt
+    400312: L_Hilt_Ball
+    400314: L_Hilt_End
+    400316: L_Hip_FK_Ctrl
+    400318: L_Hip_FK_Ctrl_Grp
+    400320: L_Hip_FK_Jnt
+    400322: L_Hip_IK_Jnt
+    400324: L_Hip_RK_Jnt
+    400326: L_Hip_Socket_Ctrl
+    400328: L_Hip_Socket_Ctrl_Grp
+    400330: L_Hip_Socket_Jnt
+    400332: L_IK_Foot_Ctrl
+    400334: L_IK_Foot_Ctrl_Grp
+    400336: L_IK_Foot_Heel_Reverse_IK_Jnt
+    400338: L_Inner_Eye_Ctrl
+    400340: L_Inner_Eye_Ctrl_Grp
+    400342: L_Inner_Eyelid_Jnt
+    400344: L_Iris_Ctrl
+    400346: L_Iris_Ctrl_Grp
+    400348: L_Iris_Jnt
+    400350: L_Leg_FK_Control_System
+    400352: L_Leg_FK_Master_Ctrl
+    400354: L_Leg_FK_Master_Ctrl_Grp
+    400356: L_Leg_IK_Ctrl_Grp_Main
+    400358: L_Leg_IK_Handle
+    400360: L_Leg_PV_IK_Ctrl
+    400362: L_Leg_PV_IK_Ctrl_Grp
+    400364: L_Leg_PV_IK_Ctrl_Offset_Grp
+    400366: L_Leg_RK_Control_System
+    400368: L_Leg_Root_IK_Ctrl
+    400370: L_Leg_Root_IK_Ctrl_Grp
+    400372: L_Outer_Eye_Ctrl
+    400374: L_Outer_Eye_Ctrl_Grp
+    400376: L_Outer_Eyelid_Jnt
+    400378: L_Pupil_Ctrl
+    400380: L_Pupil_Ctrl_Grp
+    400382: L_Pupil_Jnt
+    400384: L_Reverse_Foot_Jnt_Grp
+    400386: L_Reverse_IK_Foot_Jnt_Grp
+    400388: L_Shin_FK_Ctrl
+    400390: L_Shin_FK_Ctrl_Grp
+    400392: L_Shin_FK_Jnt
+    400394: L_Shin_IK_Jnt
+    400396: L_Shin_Link_X_Jnt
+    400398: L_Shin_Link_Y_Jnt
+    400400: L_Shin_RK_Jnt
+    400402: L_Shoulder_FK_Ctrl
+    400404: L_Shoulder_FK_Ctrl_Grp
+    400406: L_Shoulder_FK_Jnt
+    400408: L_Shoulder_IK_Jnt
+    400410: L_Shoulder_RK_Jnt
+    400412: L_Shoulder_Socket_Jnt
+    400414: L_Thigh_FK_Ctrl
+    400416: L_Thigh_FK_Ctrl_Grp
+    400418: L_Thigh_FK_Jnt
+    400420: L_Thigh_IK_Jnt
+    400422: L_Thigh_RK_Jnt
+    400424: L_Wrist_FK_Ctrl
+    400426: L_Wrist_FK_Ctrl_Grp
+    400428: L_Wrist_FK_Jnt
+    400430: L_Wrist_IK_Jnt
+    400432: L_Wrist_RK_Jnt
+    400434: Neck_Bind_Jnt_01
+    400436: Neck_Bind_Jnt_02
+    400438: Neck_Bind_Jnt_03
+    400440: Neck_Bind_Jnt_04
+    400442: Neck_Bind_Jnt_05
+    400444: Neck_Control_System
+    400446: Neck_Master_Ctrl_Grp
+    400448: Neck_Spline_01_Ctrl
+    400450: Neck_Spline_01_Ctrl_Grp
+    400452: Neck_Spline_02_Ctrl
+    400454: Neck_Spline_02_Ctrl_Grp
+    400456: Neck_Spline_03_Ctrl
+    400458: Neck_Spline_03_Ctrl_Grp
+    400460: Neck_Spline_IK_Curve
+    400462: Neck_Spline_IK_Handle
+    400464: Neck_Spline_IK_Master_Ctrl
+    400466: Neck_Spline_IK_System
+    400468: Neck_Spline_Jnt_01
+    400470: Neck_Spline_Jnt_02
+    400472: Neck_Spline_Jnt_03
+    400474: PV_Control_Visibility_Ctrl
+    400476: PV_Control_Visibility_Ctrl_Grp
+    400478: R_Ankle_FK_Ctrl
+    400480: R_Ankle_FK_Ctrl_Grp
+    400482: R_Ankle_FK_Offset_Jnt
+    400484: R_Ankle_IK_Jnt
+    400486: R_Ankle_IK_Jnt_Grp
+    400488: R_Ankle_IK_Offset_Jnt
+    400490: R_Ankle_Reverse_IK_Jnt
+    400492: R_Ankle_RK_Jnt
+    400494: R_Arm_FK_Control_System
+    400496: R_Arm_FK_Master_Ctrl
+    400498: R_Arm_FK_Master_Ctrl_Grp
+    400500: R_Arm_Hilt_01_Jnt
+    400502: R_Arm_Hilt_02_Jnt
+    400504: R_Arm_Hilt_Ctrl
+    400506: R_Arm_Hilt_Ctrl_Grp
+    400508: R_Arm_Hilt_End_Ctrl
+    400510: R_Arm_Hilt_End_Ctrl_Grp
+    400512: R_Arm_Hilt_Root_Ctrl
+    400514: R_Arm_Hilt_Root_Ctrl_Grp
+    400516: R_Arm_IK_Control_System
+    400518: R_Arm_IK_Ctrl
+    400520: R_Arm_IK_Ctrl_Grp
+    400522: R_Arm_IK_Ctrl_Grp_Main
+    400524: R_Arm_IK_Handle
+    400526: R_Arm_PV_Ctrl
+    400528: R_Arm_PV_Ctrl_Grp
+    400530: R_Arm_PV_Ctrl_Offset_Grp
+    400532: R_Arm_RK_Control_System
+    400534: R_Arm_Root_IK_Ctrl
+    400536: R_Arm_Root_IK_Ctrl_Grp
+    400538: R_Arm_Socket_Ctrl
+    400540: R_Arm_Socket_Ctrl_Grp
+    400542: R_Elbow_FK_Ctrl
+    400544: R_Elbow_FK_Ctrl_Grp
+    400546: R_Elbow_FK_Jnt
+    400548: R_Elbow_IK_Jnt
+    400550: R_Elbow_RK_Jnt
+    400552: R_Eye_Control_System
+    400554: R_Foot_Ball_IK_Handle
+    400556: R_Foot_Ball_Inner_FK_Ctrl
+    400558: R_Foot_Ball_Inner_FK_Ctrl_Grp
+    400560: R_Foot_Ball_Inner_IK_Jnt
+    400562: R_Foot_Ball_Inner_RK_Jnt
+    400564: R_Foot_Ball_Middle_FK_Ctrl
+    400566: R_Foot_Ball_Middle_FK_Ctrl_Grp
+    400568: R_Foot_Ball_Middle_IK_Jnt
+    400570: R_Foot_Ball_Middle_Reverse_IK_Jnt
+    400572: R_Foot_Ball_Middle_RK_Jnt
+    400574: R_Foot_Ball_Outer_FK_Ctrl
+    400576: R_Foot_Ball_Outer_FK_Ctrl_Grp
+    400578: R_Foot_Ball_Outer_IK_Jnt
+    400580: R_Foot_Ball_Outer_RK_Jnt
+    400582: R_Foot_FK_System
+    400584: R_Foot_RK_System
+    400586: R_Foot_Tip_Inner_Reverse_IK_Jnt
+    400588: R_Foot_Tip_Middle_Reverse_IK_Jnt
+    400590: R_Foot_Tip_Outer_Reverse_IK_Jnt
+    400592: R_Foot_Toe_In_IK_Handle
+    400594: R_Foot_Toe_Inner_IK_Jnt
+    400596: R_Foot_Toe_Inner_Reverse_IK_Jnt
+    400598: R_Foot_Toe_Mid_IK_Handle
+    400600: R_Foot_Toe_Middle_IK_Jnt
+    400602: R_Foot_Toe_Middle_Reverse_IK_Jnt
+    400604: R_Foot_Toe_Out_IK_Handle
+    400606: R_Foot_Toe_Outer_IK_Jnt
+    400608: R_Foot_Toe_Outer_Reverse_IK_Jnt
+    400610: R_Foot_Toe_Tip_Inner_Reverse_IK_Jnt
+    400612: R_Foot_Toe_Tip_Middle_Reverse_IK_Jnt
+    400614: R_Foot_Toe_Tip_Outer_Reverse_IK_Jnt
+    400616: R_Hand_Finger_Middle_Ctrl
+    400618: R_Hand_Finger_Middle_Ctrl_Grp
+    400620: R_Hand_Finger_Middle_IK_Ctrl_Grp_Main
+    400622: R_Hand_Finger_Middle_IK_Handle
+    400624: R_Hand_Finger_Middle_Jnt_01
+    400626: R_Hand_Finger_Middle_Jnt_02
+    400628: R_Hand_Finger_Middle_Jnt_03
+    400630: R_Hand_Finger_Middle_Jnt_04
+    400632: R_Hand_Finger_Middle_PV_Ctrl
+    400634: R_Hand_Finger_Middle_PV_Ctrl_Grp
+    400636: R_Hand_Finger_Middle_PV_Ctrl_Offset_Grp
+    400638: R_Hand_Finger_Middle_Root_Ctrl
+    400640: R_Hand_Finger_Middle_Root_Ctrl_Grp
+    400642: R_Hand_Finger_Pointer_Ctrl
+    400644: R_Hand_Finger_Pointer_Ctrl_Grp
+    400646: R_Hand_Finger_Pointer_IK_Ctrl_Grp_Main
+    400648: R_Hand_Finger_Pointer_IK_Handle
+    400650: R_Hand_Finger_Pointer_Jnt_01
+    400652: R_Hand_Finger_Pointer_Jnt_02
+    400654: R_Hand_Finger_Pointer_Jnt_03
+    400656: R_Hand_Finger_Pointer_Jnt_04
+    400658: R_Hand_Finger_Pointer_PV_Ctrl
+    400660: R_Hand_Finger_Pointer_PV_Ctrl_Grp
+    400662: R_Hand_Finger_Pointer_PV_Ctrl_Offset_Grp
+    400664: R_Hand_Finger_Pointer_Root_Ctrl
+    400666: R_Hand_Finger_Pointer_Root_Ctrl_Grp
+    400668: R_Hand_Finger_Ring_Ctrl
+    400670: R_Hand_Finger_Ring_Ctrl_Grp
+    400672: R_Hand_Finger_Ring_IK_Ctrl_Grp_Main
+    400674: R_Hand_Finger_Ring_IK_Handle
+    400676: R_Hand_Finger_Ring_Jnt_01
+    400678: R_Hand_Finger_Ring_Jnt_02
+    400680: R_Hand_Finger_Ring_Jnt_03
+    400682: R_Hand_Finger_Ring_Jnt_04
+    400684: R_Hand_Finger_Ring_PV_Ctrl
+    400686: R_Hand_Finger_Ring_PV_Ctrl_Grp
+    400688: R_Hand_Finger_Ring_PV_Ctrl_Offset_Grp
+    400690: R_Hand_Finger_Ring_Root_Ctrl
+    400692: R_Hand_Finger_Ring_Root_Ctrl_Grp
+    400694: R_Hand_Finger_Thumb_Ctrl
+    400696: R_Hand_Finger_Thumb_Ctrl_Grp
+    400698: R_Hand_Finger_Thumb_IK_Ctrl_Grp_Main
+    400700: R_Hand_Finger_Thumb_IK_Handle
+    400702: R_Hand_Finger_Thumb_Jnt_01
+    400704: R_Hand_Finger_Thumb_Jnt_02
+    400706: R_Hand_Finger_Thumb_Jnt_03
+    400708: R_Hand_Finger_Thumb_Jnt_04
+    400710: R_Hand_Finger_Thumb_PV_Ctrl
+    400712: R_Hand_Finger_Thumb_PV_Ctrl_Grp
+    400714: R_Hand_Finger_Thumb_PV_Ctrl_Offset_Grp
+    400716: R_Hand_Finger_Thumb_Root_Ctrl
+    400718: R_Hand_Finger_Thumb_Root_Ctrl_Grp
+    400720: R_Hand_IK_System
+    400722: R_Hilt
+    400724: R_Hilt_Ball
+    400726: R_Hilt_End
+    400728: R_Hip_FK_Ctrl
+    400730: R_Hip_FK_Ctrl_Grp
+    400732: R_Hip_FK_Jnt
+    400734: R_Hip_IK_Jnt
+    400736: R_Hip_RK_Jnt
+    400738: R_Hip_Socket_Ctrl
+    400740: R_Hip_Socket_Ctrl_Grp
+    400742: R_Hip_Socket_Jnt
+    400744: R_IK_Foot_Ctrl
+    400746: R_IK_Foot_Ctrl_Grp
+    400748: R_IK_Foot_Heel_Reverse_IK_Jnt
+    400750: R_Inner_Eye_Ctrl
+    400752: R_Inner_Eye_Ctrl_Grp
+    400754: R_Inner_Eyelid_Jnt
+    400756: R_Iris_Ctrl
+    400758: R_Iris_Ctrl_Grp
+    400760: R_Iris_Jnt
+    400762: R_Leg_FK_Control_System
+    400764: R_Leg_FK_Master_Ctrl
+    400766: R_Leg_FK_Master_Ctrl_Grp
+    400768: R_Leg_IK_Ctrl_Grp_Main
+    400770: R_Leg_IK_Handle
+    400772: R_Leg_PV_IK_Ctrl
+    400774: R_Leg_PV_IK_Ctrl_Grp
+    400776: R_Leg_PV_IK_Ctrl_Offset_Grp
+    400778: R_Leg_RK_Control_System
+    400780: R_Leg_Root_IK_Ctrl
+    400782: R_Leg_Root_IK_Ctrl_Grp
+    400784: R_Outer_Eye_Ctrl
+    400786: R_Outer_Eye_Ctrl_Grp
+    400788: R_Outer_Eyelid_Jnt
+    400790: R_Pupil_Ctrl
+    400792: R_Pupil_Ctrl_Grp
+    400794: R_Pupil_Jnt
+    400796: R_Reverse_Foot_Jnt_Grp
+    400798: R_Reverse_IK_Foot_Jnt_Grp
+    400800: R_Shin_FK_Ctrl
+    400802: R_Shin_FK_Ctrl_Grp
+    400804: R_Shin_FK_Jnt
+    400806: R_Shin_IK_Jnt
+    400808: R_Shin_Link_X_Jnt
+    400810: R_Shin_Link_Y_Jnt
+    400812: R_Shin_RK_Jnt
+    400814: R_Shoulder_FK_Ctrl
+    400816: R_Shoulder_FK_Ctrl_Grp
+    400818: R_Shoulder_FK_Jnt
+    400820: R_Shoulder_IK_Jnt
+    400822: R_Shoulder_RK_Jnt
+    400824: R_Shoulder_Socket_Jnt
+    400826: R_Thigh_FK_Ctrl
+    400828: R_Thigh_FK_Ctrl_Grp
+    400830: R_Thigh_FK_Jnt
+    400832: R_Thigh_IK_Jnt
+    400834: R_Thigh_RK_Jnt
+    400836: R_Wrist_FK_Ctrl
+    400838: R_Wrist_FK_Ctrl_Grp
+    400840: R_Wrist_FK_Jnt
+    400842: R_Wrist_IK_Jnt
+    400844: R_Wrist_RK_Jnt
+    400846: //RootNode
+    400848: Sino_Ankle
+    400850: Sino_Ankle 1
+    400852: Sino_Ankle_Sphere1
+    400854: Sino_Ankle_Sphere1 1
+    400856: Sino_Armor_Middle_Piece_1
+    400858: Sino_Armor_Middle_Piece_2
+    400860: Sino_Armor_Middle_Piece_3
+    400862: Sino_Armor_Middle_Piece_4
+    400864: Sino_Armor_Middle_Piece_6
+    400866: Sino_Armor_Piece_1
+    400868: Sino_Armor_Piece_2
+    400870: Sino_Armor_Piece_3
+    400872: Sino_Armor_Piece_4
+    400874: Sino_Armor_Piece_5
+    400876: Sino_Armor_Piece_6
+    400878: Sino_Base_Finger_Joint1
+    400880: Sino_Base_Finger_Joint1 1
+    400882: Sino_Base_Finger_Joint2
+    400884: Sino_Base_Finger_Joint2 1
+    400886: Sino_Base_Finger_Joint3
+    400888: Sino_Base_Finger_Joint3 1
+    400890: Sino_Calf
+    400892: Sino_Calf 1
+    400894: Sino_Calf 2
+    400896: Sino_Calf 3
+    400898: Sino_Chest
+    400900: Sino_Chest_Front
+    400902: Sino_Chest_Heart
+    400904: Sino_Chest_Mesh
+    400906: Sino_Chest_Middle
+    400908: Sino_Chest_Top
+    400910: Sino_Chest_Underplate
+    400912: Sino_Clavicle_Mesh
+    400914: Sino_Clavicle_Socket
+    400916: Sino_Elbow_Joint1
+    400918: Sino_Elbow_Joint1 1
+    400920: Sino_Feathers1
+    400922: Sino_Fine_Bicep1
+    400924: Sino_Fine_Bicep1 1
+    400926: Sino_Finger_Armor4
+    400928: Sino_Finger_Armor4 1
+    400930: Sino_Finger_Armor5
+    400932: Sino_Finger_Armor5 1
+    400934: Sino_Finger_Armor6
+    400936: Sino_Finger_Armor6 1
+    400938: Sino_Finger_MIddle_Armor1
+    400940: Sino_Finger_MIddle_Armor1 1
+    400942: Sino_Finger_MIddle_Armor3
+    400944: Sino_Finger_MIddle_Armor3 1
+    400946: Sino_Finger_MIddle_Armor4
+    400948: Sino_Finger_MIddle_Armor4 1
+    400950: Sino_Finger_Tip1
+    400952: Sino_Finger_Tip1 1
+    400954: Sino_Finger_Tip2
+    400956: Sino_Finger_Tip2 1
+    400958: Sino_Finger_Tip3
+    400960: Sino_Finger_Tip3 1
+    400962: Sino_Foot
+    400964: Sino_Foot 1
+    400966: Sino_Foot 2
+    400968: Sino_Foot 3
+    400970: Sino_Foot_Armor
+    400972: Sino_Foot_Armor 1
+    400974: Sino_Foot_Back
+    400976: Sino_Foot_Back 1
+    400978: Sino_Fore_Arm
+    400980: Sino_Fore_Arm 1
+    400982: Sino_Fore_Arm 2
+    400984: Sino_Fore_Arm 3
+    400986: Sino_Fore_Arm_Sheath
+    400988: Sino_Fore_Arm_Sheath 1
+    400990: Sino_ForeArm_Back
+    400992: Sino_ForeArm_Back 1
+    400994: Sino_group3
+    400996: Sino_group4
+    400998: Sino_Hand
+    401000: Sino_Hand 1
+    401002: Sino_Hand1
+    401004: Sino_Hand1 1
+    401006: Sino_Head
+    401008: Sino_Head_Aarmor_Top
+    401010: Sino_Head_Armor_1
+    401012: Sino_Head_Armor_2
+    401014: Sino_Helm
+    401016: Sino_Hip
+    401018: Sino_Hip_Front
+    401020: Sino_Hip_Socket
+    401022: Sino_Hip_Sphere
+    401024: Sino_Hip_Sphere 1
+    401026: Sino_Hip_Sphere 2
+    401028: Sino_Hip_Sphere 3
+    401030: Sino_Hip_Top
+    401032: Sino_In_Feathers
+    401034: Sino_Inner_Head
+    401036: Sino_Knee1
+    401038: Sino_Knee1 1
+    401040: Sino_L_Arm
+    401042: Sino_L_Arm_Blade1
+    401044: Sino_L_Eye
+    401046: Sino_L_Forearm_Mesh
+    401048: Sino_L_Leg
+    401050: Sino_L_Toe
+    401052: Sino_L_Toe 1
+    401054: Sino_L_Toe_Amor
+    401056: Sino_L_Toe_Amor 1
+    401058: Sino_L_Toe_Amor1
+    401060: Sino_L_Toe_Amor1 1
+    401062: Sino_L_Toe_Amor2
+    401064: Sino_L_Toe_Amor2 1
+    401066: Sino_Middle_Finger_Joint1
+    401068: Sino_Middle_Finger_Joint1 1
+    401070: Sino_Middle_Finger_Joint2
+    401072: Sino_Middle_Finger_Joint2 1
+    401074: Sino_Middle_Finger_Joint3
+    401076: Sino_Middle_Finger_Joint3 1
+    401078: Sino_Middle_Toe
+    401080: Sino_Middle_Toe 1
+    401082: Sino_Mouth
+    401084: Sino_Neck
+    401086: Sino_Neck_Armor_1
+    401088: Sino_Neck_Armor_2
+    401090: Sino_Neck_Armor_3
+    401092: Sino_Neck_Base_Armor
+    401094: Sino_Neck_Chords
+    401096: Sino_New_Guts
+    401098: Sino_Nose
+    401100: Sino_pCylinder6
+    401102: Sino_pCylinder6 1
+    401104: Sino_pCylinder7
+    401106: Sino_pCylinder7 1
+    401108: Sino_pCylinder8
+    401110: Sino_pCylinder8 1
+    401112: Sino_polySurface466
+    401114: Sino_polySurface466 1
+    401116: Sino_polySurface469
+    401118: Sino_polySurface469 1
+    401120: Sino_polySurface470
+    401122: Sino_polySurface470 1
+    401124: Sino_polySurface471
+    401126: Sino_polySurface471 1
+    401128: Sino_polySurface472
+    401130: Sino_polySurface472 1
+    401132: Sino_polySurface474
+    401134: Sino_polySurface474 1
+    401136: Sino_polySurface476
+    401138: Sino_polySurface476 1
+    401140: Sino_polySurface477
+    401142: Sino_polySurface477 1
+    401144: Sino_polySurface478
+    401146: Sino_polySurface478 1
+    401148: Sino_polySurface480
+    401150: Sino_polySurface480 1
+    401152: Sino_pTorus1
+    401154: Sino_pTorus1 1
+    401156: Sino_pTorus2
+    401158: Sino_pTorus2 1
+    401160: Sino_R_Arm
+    401162: Sino_R_Arm_Blade
+    401164: Sino_R_Eye
+    401166: Sino_R_Forearm_Mesh
+    401168: Sino_R_Leg
+    401170: Sino_R_Leg_Foot_Toes_L_Toe
+    401172: Sino_R_Leg_Foot_Toes_L_Toe 1
+    401174: Sino_R_Leg_Foot_Toes_L_Toe1
+    401176: Sino_R_Leg_Foot_Toes_L_Toe1 1
+    401178: Sino_R_Toe
+    401180: Sino_R_Toe 1
+    401182: Sino_Shoulder
+    401184: Sino_Shoulder 1
+    401186: Sino_Shoulder_Joint
+    401188: Sino_Shoulder_Joint 1
+    401190: Sino_Socket_Wall
+    401192: Sino_Tail
+    401194: Sino_Tail_Base
+    401196: Sino_Tail_Mesh
+    401198: Sino_Tail_Tip
+    401200: Sino_Thigh
+    401202: Sino_Thigh 1
+    401204: Sino_Thigh_Bottom
+    401206: Sino_Thigh_Bottom 1
+    401208: Sino_Thigh_Top
+    401210: Sino_Thigh_Top 1
+    401212: Sino_Thumb_Armor_1
+    401214: Sino_Thumb_Armor_1 1
+    401216: Sino_Thumb_Armor_2
+    401218: Sino_Thumb_Armor_2 1
+    401220: Sino_Thumb_Base1
+    401222: Sino_Thumb_Base1 1
+    401224: Sino_Thumb_Base_Joint1
+    401226: Sino_Thumb_Base_Joint1 1
+    401228: Sino_Thumb_Middle1
+    401230: Sino_Thumb_Middle1 1
+    401232: Sino_Thumb_Middle_Joint1
+    401234: Sino_Thumb_Middle_Joint1 1
+    401236: Sino_Thumb_Tip1
+    401238: Sino_Thumb_Tip1 1
+    401240: Sino_Thumb_Tip_Armor2
+    401242: Sino_Thumb_Tip_Armor2 1
+    401244: Sino_Thumb_Tip_Armor4
+    401246: Sino_Thumb_Tip_Armor4 1
+    401248: Sino_Thumb_Tip_Armor5
+    401250: Sino_Thumb_Tip_Armor5 1
+    401252: Sino_Thumb_Tip_Armor6
+    401254: Sino_Thumb_Tip_Armor6 1
+    401256: Sino_Thumb_Tip_Joint1
+    401258: Sino_Thumb_Tip_Joint1 1
+    401260: Sino_Toes
+    401262: Sino_Toes 1
+    401264: Sino_Topoed_Dino
+    401266: Sino_transform112
+    401268: Sino_transform112 1
+    401270: Sino_transform114
+    401272: Sino_transform114 1
+    401274: Sino_transform116
+    401276: Sino_transform116 1
+    401278: Sino_Tricep1
+    401280: Sino_Tricep1 1
+    401282: Skeleton
+    401284: Spline_IK_Handles
+    401286: Tail_Bind_Jnt_01
+    401288: Tail_Bind_Jnt_02
+    401290: Tail_Bind_Jnt_03
+    401292: Tail_Bind_Jnt_04
+    401294: Tail_Bind_Jnt_05
+    401296: Tail_Bind_Jnt_06
+    401298: Tail_Bind_Jnt_07
+    401300: Tail_Bind_Jnt_08
+    401302: Tail_Bind_Jnt_09
+    401304: Tail_Bind_Jnt_10
+    401306: Tail_Bind_Jnt_11
+    401308: Tail_Bind_Jnt_12
+    401310: Tail_Bind_Jnt_13
+    401312: Tail_Control_System
+    401314: Tail_Master_Ctrl_Grp
+    401316: Tail_Spline_01_Ctrl
+    401318: Tail_Spline_01_Ctrl_Grp
+    401320: Tail_Spline_02_Ctrl
+    401322: Tail_Spline_02_Ctrl_Grp
+    401324: Tail_Spline_03_Ctrl
+    401326: Tail_Spline_03_Ctrl_Grp
+    401328: Tail_Spline_04_Ctrl
+    401330: Tail_Spline_04_Ctrl_Grp
+    401332: Tail_Spline_IK_Curve
+    401334: Tail_Spline_IK_Handle
+    401336: Tail_Spline_IK_Master_Ctrl
+    401338: Tail_Spline_IK_System
+    401340: Tail_Spline_Jnt_01
+    401342: Tail_Spline_Jnt_02
+    401344: Tail_Spline_Jnt_03
+    401346: Tail_Spline_Jnt_04
+    401348: Tongue_Bind_Jnt_01
+    401350: Tongue_Bind_Jnt_02
+    401352: Tongue_Bind_Jnt_03
+    401354: Tongue_Bind_Jnt_04
+    401356: Tongue_Bind_Jnt_05
+    401358: Tongue_Control_System
+    401360: Tongue_Master_Ctrl
+    401362: Tongue_Master_Ctrl_Grp
+    401364: Tongue_Spline_IK_Ctrl_01
+    401366: Tongue_Spline_IK_Ctrl_01_Grp
+    401368: Tongue_Spline_IK_Ctrl_02
+    401370: Tongue_Spline_IK_Ctrl_02_Grp
+    401372: Tongue_Spline_IK_Ctrl_03
+    401374: Tongue_Spline_IK_Ctrl_03_Grp
+    401376: Tongue_Spline_IK_Curve
+    401378: Tongue_Spline_IK_Handle
+    401380: Tongue_Spline_Jnt_01
+    401382: Tongue_Spline_Jnt_02
+    401384: Tongue_Spline_Jnt_03
+    401386: Transform_Ctrl
+    401388: Transform_Ctrl_Grp
+    2300000: L_Hilt
+    2300002: L_Hilt_Ball
+    2300004: L_Hilt_End
+    2300006: R_Hilt
+    2300008: R_Hilt_Ball
+    2300010: R_Hilt_End
+    2300012: Sino_Ankle_Sphere1
+    2300014: Sino_Ankle_Sphere1 1
+    2300016: Sino_Base_Finger_Joint1
+    2300018: Sino_Base_Finger_Joint1 1
+    2300020: Sino_Base_Finger_Joint2
+    2300022: Sino_Base_Finger_Joint2 1
+    2300024: Sino_Base_Finger_Joint3
+    2300026: Sino_Base_Finger_Joint3 1
+    2300028: Sino_Calf 2
+    2300030: Sino_Calf 3
+    2300032: Sino_Elbow_Joint1
+    2300034: Sino_Elbow_Joint1 1
+    2300036: Sino_Feathers1
+    2300038: Sino_Fine_Bicep1
+    2300040: Sino_Fine_Bicep1 1
+    2300042: Sino_Finger_Armor4
+    2300044: Sino_Finger_Armor4 1
+    2300046: Sino_Finger_Armor5
+    2300048: Sino_Finger_Armor5 1
+    2300050: Sino_Finger_Armor6
+    2300052: Sino_Finger_Armor6 1
+    2300054: Sino_Finger_MIddle_Armor1
+    2300056: Sino_Finger_MIddle_Armor1 1
+    2300058: Sino_Finger_MIddle_Armor3
+    2300060: Sino_Finger_MIddle_Armor3 1
+    2300062: Sino_Finger_MIddle_Armor4
+    2300064: Sino_Finger_MIddle_Armor4 1
+    2300066: Sino_Finger_Tip1
+    2300068: Sino_Finger_Tip1 1
+    2300070: Sino_Finger_Tip2
+    2300072: Sino_Finger_Tip2 1
+    2300074: Sino_Finger_Tip3
+    2300076: Sino_Finger_Tip3 1
+    2300078: Sino_Foot 2
+    2300080: Sino_Foot 3
+    2300082: Sino_Foot_Armor
+    2300084: Sino_Foot_Armor 1
+    2300086: Sino_Foot_Back
+    2300088: Sino_Foot_Back 1
+    2300090: Sino_Fore_Arm 2
+    2300092: Sino_Fore_Arm 3
+    2300094: Sino_ForeArm_Back
+    2300096: Sino_ForeArm_Back 1
+    2300098: Sino_Hand1
+    2300100: Sino_Hand1 1
+    2300102: Sino_Head_Aarmor_Top
+    2300104: Sino_Head_Armor_1
+    2300106: Sino_Head_Armor_2
+    2300108: Sino_Helm
+    2300110: Sino_Hip_Sphere 2
+    2300112: Sino_Hip_Sphere 3
+    2300114: Sino_In_Feathers
+    2300116: Sino_Inner_Head
+    2300118: Sino_Knee1
+    2300120: Sino_Knee1 1
+    2300122: Sino_L_Arm_Blade1
+    2300124: Sino_L_Forearm_Mesh
+    2300126: Sino_Middle_Finger_Joint1
+    2300128: Sino_Middle_Finger_Joint1 1
+    2300130: Sino_Middle_Finger_Joint2
+    2300132: Sino_Middle_Finger_Joint2 1
+    2300134: Sino_Middle_Finger_Joint3
+    2300136: Sino_Middle_Finger_Joint3 1
+    2300138: Sino_Mouth
+    2300140: Sino_Nose
+    2300142: Sino_pCylinder6
+    2300144: Sino_pCylinder6 1
+    2300146: Sino_pCylinder7
+    2300148: Sino_pCylinder7 1
+    2300150: Sino_pCylinder8
+    2300152: Sino_pCylinder8 1
+    2300154: Sino_polySurface466
+    2300156: Sino_polySurface466 1
+    2300158: Sino_polySurface469
+    2300160: Sino_polySurface469 1
+    2300162: Sino_polySurface470
+    2300164: Sino_polySurface470 1
+    2300166: Sino_polySurface471
+    2300168: Sino_polySurface471 1
+    2300170: Sino_polySurface472
+    2300172: Sino_polySurface472 1
+    2300174: Sino_polySurface474
+    2300176: Sino_polySurface474 1
+    2300178: Sino_polySurface476
+    2300180: Sino_polySurface476 1
+    2300182: Sino_polySurface477
+    2300184: Sino_polySurface477 1
+    2300186: Sino_polySurface478
+    2300188: Sino_polySurface478 1
+    2300190: Sino_polySurface480
+    2300192: Sino_polySurface480 1
+    2300194: Sino_pTorus1
+    2300196: Sino_pTorus1 1
+    2300198: Sino_pTorus2
+    2300200: Sino_pTorus2 1
+    2300202: Sino_R_Arm_Blade
+    2300204: Sino_R_Forearm_Mesh
+    2300206: Sino_Shoulder_Joint
+    2300208: Sino_Shoulder_Joint 1
+    2300210: Sino_Tail_Tip
+    2300212: Sino_Thigh_Bottom
+    2300214: Sino_Thigh_Bottom 1
+    2300216: Sino_Thigh_Top
+    2300218: Sino_Thigh_Top 1
+    2300220: Sino_Thumb_Armor_1
+    2300222: Sino_Thumb_Armor_1 1
+    2300224: Sino_Thumb_Armor_2
+    2300226: Sino_Thumb_Armor_2 1
+    2300228: Sino_Thumb_Base1
+    2300230: Sino_Thumb_Base1 1
+    2300232: Sino_Thumb_Base_Joint1
+    2300234: Sino_Thumb_Base_Joint1 1
+    2300236: Sino_Thumb_Middle1
+    2300238: Sino_Thumb_Middle1 1
+    2300240: Sino_Thumb_Middle_Joint1
+    2300242: Sino_Thumb_Middle_Joint1 1
+    2300244: Sino_Thumb_Tip1
+    2300246: Sino_Thumb_Tip1 1
+    2300248: Sino_Thumb_Tip_Armor2
+    2300250: Sino_Thumb_Tip_Armor2 1
+    2300252: Sino_Thumb_Tip_Armor4
+    2300254: Sino_Thumb_Tip_Armor4 1
+    2300256: Sino_Thumb_Tip_Armor5
+    2300258: Sino_Thumb_Tip_Armor5 1
+    2300260: Sino_Thumb_Tip_Armor6
+    2300262: Sino_Thumb_Tip_Armor6 1
+    2300264: Sino_Thumb_Tip_Joint1
+    2300266: Sino_Thumb_Tip_Joint1 1
+    2300268: Sino_Tricep1
+    2300270: Sino_Tricep1 1
+    3300000: L_Hilt
+    3300002: L_Hilt_Ball
+    3300004: L_Hilt_End
+    3300006: R_Hilt
+    3300008: R_Hilt_Ball
+    3300010: R_Hilt_End
+    3300012: Sino_Ankle_Sphere1
+    3300014: Sino_Ankle_Sphere1 1
+    3300016: Sino_Base_Finger_Joint1
+    3300018: Sino_Base_Finger_Joint1 1
+    3300020: Sino_Base_Finger_Joint2
+    3300022: Sino_Base_Finger_Joint2 1
+    3300024: Sino_Base_Finger_Joint3
+    3300026: Sino_Base_Finger_Joint3 1
+    3300028: Sino_Calf 2
+    3300030: Sino_Calf 3
+    3300032: Sino_Elbow_Joint1
+    3300034: Sino_Elbow_Joint1 1
+    3300036: Sino_Feathers1
+    3300038: Sino_Fine_Bicep1
+    3300040: Sino_Fine_Bicep1 1
+    3300042: Sino_Finger_Armor4
+    3300044: Sino_Finger_Armor4 1
+    3300046: Sino_Finger_Armor5
+    3300048: Sino_Finger_Armor5 1
+    3300050: Sino_Finger_Armor6
+    3300052: Sino_Finger_Armor6 1
+    3300054: Sino_Finger_MIddle_Armor1
+    3300056: Sino_Finger_MIddle_Armor1 1
+    3300058: Sino_Finger_MIddle_Armor3
+    3300060: Sino_Finger_MIddle_Armor3 1
+    3300062: Sino_Finger_MIddle_Armor4
+    3300064: Sino_Finger_MIddle_Armor4 1
+    3300066: Sino_Finger_Tip1
+    3300068: Sino_Finger_Tip1 1
+    3300070: Sino_Finger_Tip2
+    3300072: Sino_Finger_Tip2 1
+    3300074: Sino_Finger_Tip3
+    3300076: Sino_Finger_Tip3 1
+    3300078: Sino_Foot 2
+    3300080: Sino_Foot 3
+    3300082: Sino_Foot_Armor
+    3300084: Sino_Foot_Armor 1
+    3300086: Sino_Foot_Back
+    3300088: Sino_Foot_Back 1
+    3300090: Sino_Fore_Arm 2
+    3300092: Sino_Fore_Arm 3
+    3300094: Sino_ForeArm_Back
+    3300096: Sino_ForeArm_Back 1
+    3300098: Sino_Hand1
+    3300100: Sino_Hand1 1
+    3300102: Sino_Head_Aarmor_Top
+    3300104: Sino_Head_Armor_1
+    3300106: Sino_Head_Armor_2
+    3300108: Sino_Helm
+    3300110: Sino_Hip_Sphere 2
+    3300112: Sino_Hip_Sphere 3
+    3300114: Sino_In_Feathers
+    3300116: Sino_Inner_Head
+    3300118: Sino_Knee1
+    3300120: Sino_Knee1 1
+    3300122: Sino_L_Arm_Blade1
+    3300124: Sino_L_Forearm_Mesh
+    3300126: Sino_Middle_Finger_Joint1
+    3300128: Sino_Middle_Finger_Joint1 1
+    3300130: Sino_Middle_Finger_Joint2
+    3300132: Sino_Middle_Finger_Joint2 1
+    3300134: Sino_Middle_Finger_Joint3
+    3300136: Sino_Middle_Finger_Joint3 1
+    3300138: Sino_Mouth
+    3300140: Sino_Nose
+    3300142: Sino_pCylinder6
+    3300144: Sino_pCylinder6 1
+    3300146: Sino_pCylinder7
+    3300148: Sino_pCylinder7 1
+    3300150: Sino_pCylinder8
+    3300152: Sino_pCylinder8 1
+    3300154: Sino_polySurface466
+    3300156: Sino_polySurface466 1
+    3300158: Sino_polySurface469
+    3300160: Sino_polySurface469 1
+    3300162: Sino_polySurface470
+    3300164: Sino_polySurface470 1
+    3300166: Sino_polySurface471
+    3300168: Sino_polySurface471 1
+    3300170: Sino_polySurface472
+    3300172: Sino_polySurface472 1
+    3300174: Sino_polySurface474
+    3300176: Sino_polySurface474 1
+    3300178: Sino_polySurface476
+    3300180: Sino_polySurface476 1
+    3300182: Sino_polySurface477
+    3300184: Sino_polySurface477 1
+    3300186: Sino_polySurface478
+    3300188: Sino_polySurface478 1
+    3300190: Sino_polySurface480
+    3300192: Sino_polySurface480 1
+    3300194: Sino_pTorus1
+    3300196: Sino_pTorus1 1
+    3300198: Sino_pTorus2
+    3300200: Sino_pTorus2 1
+    3300202: Sino_R_Arm_Blade
+    3300204: Sino_R_Forearm_Mesh
+    3300206: Sino_Shoulder_Joint
+    3300208: Sino_Shoulder_Joint 1
+    3300210: Sino_Tail_Tip
+    3300212: Sino_Thigh_Bottom
+    3300214: Sino_Thigh_Bottom 1
+    3300216: Sino_Thigh_Top
+    3300218: Sino_Thigh_Top 1
+    3300220: Sino_Thumb_Armor_1
+    3300222: Sino_Thumb_Armor_1 1
+    3300224: Sino_Thumb_Armor_2
+    3300226: Sino_Thumb_Armor_2 1
+    3300228: Sino_Thumb_Base1
+    3300230: Sino_Thumb_Base1 1
+    3300232: Sino_Thumb_Base_Joint1
+    3300234: Sino_Thumb_Base_Joint1 1
+    3300236: Sino_Thumb_Middle1
+    3300238: Sino_Thumb_Middle1 1
+    3300240: Sino_Thumb_Middle_Joint1
+    3300242: Sino_Thumb_Middle_Joint1 1
+    3300244: Sino_Thumb_Tip1
+    3300246: Sino_Thumb_Tip1 1
+    3300248: Sino_Thumb_Tip_Armor2
+    3300250: Sino_Thumb_Tip_Armor2 1
+    3300252: Sino_Thumb_Tip_Armor4
+    3300254: Sino_Thumb_Tip_Armor4 1
+    3300256: Sino_Thumb_Tip_Armor5
+    3300258: Sino_Thumb_Tip_Armor5 1
+    3300260: Sino_Thumb_Tip_Armor6
+    3300262: Sino_Thumb_Tip_Armor6 1
+    3300264: Sino_Thumb_Tip_Joint1
+    3300266: Sino_Thumb_Tip_Joint1 1
+    3300268: Sino_Tricep1
+    3300270: Sino_Tricep1 1
+    4300000: Sino_Mouth
+    4300002: Sino_Inner_Head
+    4300004: Sino_Feathers1
+    4300006: Sino_pCylinder6
+    4300008: Sino_pCylinder7
+    4300010: Sino_pCylinder8
+    4300012: Sino_pTorus1
+    4300014: Sino_pTorus2
+    4300016: Sino_pCylinder6
+    4300018: Sino_pCylinder7
+    4300020: Sino_pCylinder8
+    4300022: Sino_pTorus1
+    4300024: Sino_pTorus2
+    4300026: Sino_In_Feathers
+    4300028: Sino_Nose
+    4300030: Sino_Head_Armor_1
+    4300032: Sino_Head_Armor_2
+    4300034: Sino_Head_Aarmor_Top
+    4300036: Sino_Helm
+    4300038: Sino_Neck_Chords
+    4300040: Sino_Neck_Armor_3
+    4300042: Sino_Neck_Armor_2
+    4300044: Sino_Neck_Armor_1
+    4300046: Sino_Neck_Base_Armor
+    4300048: Sino_Clavicle_Socket
+    4300050: Sino_Clavicle_Mesh
+    4300052: Sino_Chest_Front
+    4300054: Sino_Chest_Middle
+    4300056: Sino_Chest_Top
+    4300058: Sino_Chest_Heart
+    4300060: Sino_Chest_Underplate
+    4300062: Sino_Chest_Mesh
+    4300064: Sino_New_Guts
+    4300066: Sino_Hip_Front
+    4300068: Sino_Socket_Wall
+    4300070: Sino_Hip_Socket
+    4300072: Sino_Hip_Top
+    4300074: Sino_Tail_Base
+    4300076: Sino_Armor_Piece_1
+    4300078: Sino_Armor_Middle_Piece_1
+    4300080: Sino_Armor_Piece_2
+    4300082: Sino_Armor_Middle_Piece_2
+    4300084: Sino_Armor_Piece_3
+    4300086: Sino_Armor_Middle_Piece_3
+    4300088: Sino_Armor_Piece_4
+    4300090: Sino_Armor_Middle_Piece_4
+    4300092: Sino_Armor_Piece_5
+    4300094: Sino_Armor_Middle_Piece_6
+    4300096: Sino_Armor_Piece_6
+    4300098: Sino_Tail_Tip
+    4300100: Sino_Tail_Mesh
+    4300102: Sino_Hip_Sphere
+    4300104: Sino_Thigh_Bottom
+    4300106: Sino_Thigh_Top
+    4300108: Sino_Knee1
+    4300110: Sino_Calf
+    4300112: Sino_polySurface469
+    4300114: Sino_Ankle_Sphere1
+    4300116: Sino_polySurface470
+    4300118: Sino_polySurface466
+    4300120: Sino_Foot_Back
+    4300122: Sino_Foot
+    4300124: Sino_polySurface478
+    4300126: Sino_polySurface476
+    4300128: Sino_polySurface472
+    4300130: Sino_Foot_Armor
+    4300132: Sino_polySurface480
+    4300134: Sino_polySurface474
+    4300136: Sino_polySurface477
+    4300138: Sino_Hip_Sphere
+    4300140: Sino_Thigh_Bottom
+    4300142: Sino_Thigh_Top
+    4300144: Sino_Knee1
+    4300146: Sino_Calf
+    4300148: Sino_polySurface469
+    4300150: Sino_Ankle_Sphere1
+    4300152: Sino_polySurface470
+    4300154: Sino_polySurface466
+    4300156: Sino_Foot_Back
+    4300158: Sino_Foot
+    4300160: Sino_polySurface478
+    4300162: Sino_polySurface476
+    4300164: Sino_polySurface472
+    4300166: Sino_Foot_Armor
+    4300168: Sino_polySurface480
+    4300170: Sino_polySurface474
+    4300172: Sino_polySurface477
+    4300174: Sino_Elbow_Joint1
+    4300176: Sino_Tricep1
+    4300178: Sino_Fine_Bicep1
+    4300180: Sino_Shoulder_Joint
+    4300182: Sino_Fore_Arm
+    4300184: Sino_ForeArm_Back
+    4300186: L_Hilt_End
+    4300188: L_Hilt_Ball
+    4300190: L_Hilt
+    4300192: Sino_L_Arm_Blade1
+    4300194: Sino_polySurface471
+    4300196: Sino_Finger_Tip3
+    4300198: Sino_Finger_Tip2
+    4300200: Sino_Finger_Tip1
+    4300202: Sino_Middle_Finger_Joint3
+    4300204: Sino_Middle_Finger_Joint2
+    4300206: Sino_Middle_Finger_Joint1
+    4300208: Sino_Base_Finger_Joint3
+    4300210: Sino_Base_Finger_Joint2
+    4300212: Sino_Base_Finger_Joint1
+    4300214: Sino_Thumb_Tip1
+    4300216: Sino_Thumb_Tip_Joint1
+    4300218: Sino_Thumb_Middle1
+    4300220: Sino_Thumb_Middle_Joint1
+    4300222: Sino_Thumb_Base1
+    4300224: Sino_Hand1
+    4300226: Sino_Thumb_Armor_2
+    4300228: Sino_Thumb_Armor_1
+    4300230: Sino_Thumb_Base_Joint1
+    4300232: Sino_Finger_MIddle_Armor1
+    4300234: Sino_Finger_Armor4
+    4300236: Sino_Thumb_Tip_Armor2
+    4300238: Sino_Finger_Armor5
+    4300240: Sino_Finger_Armor6
+    4300242: Sino_Finger_MIddle_Armor3
+    4300244: Sino_Finger_MIddle_Armor4
+    4300246: Sino_Thumb_Tip_Armor4
+    4300248: Sino_Thumb_Tip_Armor5
+    4300250: Sino_Thumb_Tip_Armor6
+    4300252: Sino_Elbow_Joint1
+    4300254: Sino_Tricep1
+    4300256: Sino_Fine_Bicep1
+    4300258: Sino_Shoulder_Joint
+    4300260: Sino_Fore_Arm
+    4300262: Sino_ForeArm_Back
+    4300264: R_Hilt_End
+    4300266: R_Hilt_Ball
+    4300268: R_Hilt
+    4300270: Sino_R_Arm_Blade
+    4300272: Sino_Hand1
+    4300274: Sino_polySurface471
+    4300276: Sino_Finger_Tip3
+    4300278: Sino_Finger_Tip2
+    4300280: Sino_Finger_Tip1
+    4300282: Sino_Middle_Finger_Joint3
+    4300284: Sino_Middle_Finger_Joint2
+    4300286: Sino_Middle_Finger_Joint1
+    4300288: Sino_Base_Finger_Joint3
+    4300290: Sino_Base_Finger_Joint2
+    4300292: Sino_Base_Finger_Joint1
+    4300294: Sino_Thumb_Tip1
+    4300296: Sino_Thumb_Tip_Joint1
+    4300298: Sino_Thumb_Middle1
+    4300300: Sino_Thumb_Middle_Joint1
+    4300302: Sino_Thumb_Base1
+    4300304: Sino_Thumb_Armor_2
+    4300306: Sino_Thumb_Armor_1
+    4300308: Sino_Thumb_Base_Joint1
+    4300310: Sino_Finger_MIddle_Armor1
+    4300312: Sino_Finger_Armor4
+    4300314: Sino_Thumb_Tip_Armor2
+    4300316: Sino_Finger_Armor5
+    4300318: Sino_Finger_Armor6
+    4300320: Sino_Finger_MIddle_Armor3
+    4300322: Sino_Finger_MIddle_Armor4
+    4300324: Sino_Thumb_Tip_Armor4
+    4300326: Sino_Thumb_Tip_Armor5
+    4300328: Sino_Thumb_Tip_Armor6
+    4300330: Sino_R_Forearm_Mesh
+    4300332: Sino_L_Forearm_Mesh
+    7400000: SinoRun
+    7400002: SinoSideStep
+    7400004: SinoBackStep
+    7400006: SinoJump
+    7400008: SinoIdle
+    9500000: //RootNode
+    13700000: Sino_Armor_Middle_Piece_1
+    13700002: Sino_Armor_Middle_Piece_2
+    13700004: Sino_Armor_Middle_Piece_3
+    13700006: Sino_Armor_Middle_Piece_4
+    13700008: Sino_Armor_Middle_Piece_6
+    13700010: Sino_Armor_Piece_1
+    13700012: Sino_Armor_Piece_2
+    13700014: Sino_Armor_Piece_3
+    13700016: Sino_Armor_Piece_4
+    13700018: Sino_Armor_Piece_5
+    13700020: Sino_Armor_Piece_6
+    13700022: Sino_Chest_Front
+    13700024: Sino_Chest_Heart
+    13700026: Sino_Chest_Mesh
+    13700028: Sino_Chest_Middle
+    13700030: Sino_Chest_Top
+    13700032: Sino_Chest_Underplate
+    13700034: Sino_Clavicle_Mesh
+    13700036: Sino_Clavicle_Socket
+    13700038: Sino_Hip_Front
+    13700040: Sino_Hip_Socket
+    13700042: Sino_Hip_Top
+    13700044: Sino_Neck_Armor_1
+    13700046: Sino_Neck_Armor_2
+    13700048: Sino_Neck_Armor_3
+    13700050: Sino_Neck_Base_Armor
+    13700052: Sino_Neck_Chords
+    13700054: Sino_New_Guts
+    13700056: Sino_Socket_Wall
+    13700058: Sino_Tail_Base
+    13700060: Sino_Tail_Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: SinoRun
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SinoSideStep
+      takeName: Take 001
+      firstFrame: 25
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SinoBackStep
+      takeName: Take 001
+      firstFrame: 85
+      lastFrame: 109
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SinoJump
+      takeName: Take 001
+      firstFrame: 115
+      lastFrame: 144
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SinoIdle
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
